@@ -11,7 +11,6 @@ public class UserDto {
     private String userRole;
 
 
-
     public String getFirstName() {
         return firstName;
     }
@@ -28,25 +27,16 @@ public class UserDto {
         this.lastName = lastName;
     }
 
-    public String getEmail() {
-        return email;
-    }
 
     public void setEmail(String email) {
         this.email = email;
     }
 
-    public String getUserRole() {
-        return userRole;
-    }
 
     public void setUserRole(String userRole) {
         this.userRole = userRole;
     }
 
-    public Long getId() {
-        return id;
-    }
 
     public void setId(Long id) {
         this.id = id;
